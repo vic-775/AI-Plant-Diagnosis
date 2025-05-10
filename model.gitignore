@@ -1,0 +1,13 @@
+# Ignore the virtual environment folder
+env/
+
+# Ignore model files (keras, h5, etc.)
+*.h5
+*.keras
+
+# Ignore .env files
+.env
+
+# Ignore system files
+__pycache__/
+.DS_Store
