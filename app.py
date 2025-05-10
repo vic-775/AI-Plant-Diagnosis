@@ -81,7 +81,7 @@ if (pages == 'Predictions'):
         st.write("The Prediction")
         result_index = model_prediction(test_image)
         labels = []
-        with open(r"C:\Users\PC\Desktop\plant model\labels.txt") as f:
+        with open(r"labels.txt") as f:
             content = f.readlines()
             for i in content:
                 labels.append(i[:-1])
