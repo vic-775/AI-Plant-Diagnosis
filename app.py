@@ -8,7 +8,7 @@ from PIL import Image
 
 # Loading the trained model
 def get_model():
-    model_path = "cnn_model_fruits.keras"
+    model_path = "cnn_model_plant_disease.keras"
     file_id = "1-JiqmEC-EtOhbEAlDPnSn6Ag-fsv1XAy"
     url = f"https://drive.google.com/uc?id={file_id}"
     if not os.path.exists(model_path):
