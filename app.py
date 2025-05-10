@@ -36,7 +36,7 @@ pages = st.sidebar.selectbox("Select Page", ["Home", "About the Project", "Predi
 # Home Page
 if (pages == 'Home'):
     st.header('AI Plant Diagnosis (CNN)')
-    home_image = (r'C:\Users\PC\Desktop\plant model\app foto.jpeg')
+    home_image = (r'app foto.jpeg')
     home_img = Image.open(home_image)
     home_img = home_img.resize((600,200))
     st.image(home_img)
